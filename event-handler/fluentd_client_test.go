@@ -43,7 +43,7 @@ const (
 
 var (
 	// fluentdConfig is app configuration with all required client variables
-	fluentdConfig = &StartCmd{
+	fluentdConfig = &FluentdConfig{
 		FluentdCA:   caCrtPath,
 		FluentdCert: "example/keys/client.crt",
 		FluentdKey:  "example/keys/client.key",
@@ -108,11 +108,9 @@ func TestSend(t *testing.T) {
 	ts.StartTLS()
 	defer ts.Close()
 
-	fluentdConfig.FluentdURL = ts.URL
-
 	f, err := NewFluentdClient(fluentdConfig)
 	require.NoError(t, err)
 
-	err = f.Send(obj)
+	err = f.Send(ts.URL, obj)
 	require.NoError(t, err)
 }

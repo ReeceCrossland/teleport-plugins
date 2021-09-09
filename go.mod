@@ -4,6 +4,7 @@ go 1.16
 
 require (
 	github.com/Azure/go-autorest/autorest v0.11.10 // indirect
+	github.com/alecthomas/kong v0.2.17
 	github.com/go-resty/resty/v2 v2.3.0
 	github.com/google/go-querystring v1.0.0
 	github.com/gravitational/kingpin v2.1.11-0.20190130013101-742f2714c145+incompatible
@@ -12,15 +13,19 @@ require (
 	github.com/gravitational/trace v1.1.15
 	github.com/hashicorp/go-version v1.2.1
 	github.com/jonboulle/clockwork v0.2.2
+	github.com/json-iterator/go v1.1.10
 	github.com/julienschmidt/httprouter v1.3.0
 	github.com/mailgun/holster/v3 v3.15.2
+	github.com/manifoldco/promptui v0.8.0
 	github.com/pborman/uuid v1.2.1
 	github.com/pelletier/go-toml v1.8.0
+	github.com/peterbourgon/diskv v2.0.1+incompatible
 	github.com/sirupsen/logrus v1.8.1-0.20210219125412-f104497f2b21
 	github.com/stretchr/testify v1.7.0
 	github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb // indirect
 	go.etcd.io/bbolt v1.3.5
 	golang.org/x/crypto v0.0.0-20210220033148-5ea612d1eb83
+	golang.org/x/net v0.0.0-20210222171744-9060382bd457
 	google.golang.org/grpc v1.31.0
 	gopkg.in/resty.v1 v1.12.0
 )
