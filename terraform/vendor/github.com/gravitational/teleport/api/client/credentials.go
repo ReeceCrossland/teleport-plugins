@@ -205,7 +205,7 @@ func (c *identityCredsFile) load() error {
 	return nil
 }
 
-// LoadIdentityFile is used to load Credentials from a string containing identity file contents.
+// LoadIdentityFileFromString is used to load Credentials from a string containing identity file contents.
 //
 // Identity Credentials can be used to connect to an auth server directly
 // or through a reverse tunnel.

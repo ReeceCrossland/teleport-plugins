@@ -328,9 +328,8 @@ github.com/gravitational/roundtrip v1.0.0 h1:eb+0EABfSKC8607CQ4oOyWCm9zVIfio/wW7
 github.com/gravitational/roundtrip v1.0.0/go.mod h1:qccpLd30tAJVSpx7aOEEnws4ZT3njPwdbtT8lNQxbAs=
 github.com/gravitational/teleport v1.3.3-0.20210527235356-bada2617ae03 h1:cT1yLXQK0RfWlqqiibmRKW8g+UiW+D6TUnCTGM+lxSI=
 github.com/gravitational/teleport v1.3.3-0.20210527235356-bada2617ae03/go.mod h1:XMWwSeF+vkxZ+q/M90Al717Nomj8OlnSFRmqdZE4NaQ=
-github.com/gravitational/teleport/api v0.0.0-20210527235356-bada2617ae03 h1:kOCcZPiVVlzXKs5lkUXYhF/HgH5gHDeN4UGAmyiq1J8=
-github.com/gravitational/teleport/api v0.0.0-20210527235356-bada2617ae03/go.mod h1:PMfNHTn3TQebUXtSNliOswd+r3fOdHsdtCgQRRNXlMk=
-github.com/gravitational/trace v1.1.13/go.mod h1:RvdOUHE4SHqR3oXlFFKnGzms8a5dugHygGw1bqDstYI=
+github.com/gravitational/teleport/api v0.0.0-20210909185439-0bb38f881227 h1:U5Mm5vlNfYlmWbrRn/7U7wNUyegzQt8pFMSMbzPxfBc=
+github.com/gravitational/teleport/api v0.0.0-20210909185439-0bb38f881227/go.mod h1:jaQQOJRTLLIr2ipxZUD5XqBX86wjNmEsnUb4xAEOAAQ=
 github.com/gravitational/trace v1.1.14/go.mod h1:RvdOUHE4SHqR3oXlFFKnGzms8a5dugHygGw1bqDstYI=
 github.com/gravitational/trace v1.1.15 h1:dfaFcARt110nCX6RSvrcRUbvRawEYAasXyCqnhXo0Xg=
 github.com/gravitational/trace v1.1.15/go.mod h1:RvdOUHE4SHqR3oXlFFKnGzms8a5dugHygGw1bqDstYI=

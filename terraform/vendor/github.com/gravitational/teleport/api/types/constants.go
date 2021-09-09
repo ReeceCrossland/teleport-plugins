@@ -115,9 +115,6 @@ const (
 	// KindDatabaseServer is a database proxy server resource.
 	KindDatabaseServer = "db_server"
 
-	// KindDatabase is a database resource.
-	KindDatabase = "db"
-
 	// KindToken is a provisioning token resource
 	KindToken = "token"
 
@@ -200,11 +197,11 @@ const (
 	// to proxy
 	KindRemoteCluster = "remote_cluster"
 
-	// KindUserToken is a user token used for various user related actions.
-	KindUserToken = "user_token"
+	// KindResetPasswordToken is a token used to change user passwords
+	KindResetPasswordToken = "user_token"
 
-	// KindUserTokenSecrets is user token secrets.
-	KindUserTokenSecrets = "user_token_secrets"
+	// KindResetPasswordTokenSecrets is reset password token secrets
+	KindResetPasswordTokenSecrets = "reset_password_token_secrets"
 
 	// KindIdentity is local on disk identity resource
 	KindIdentity = "identity"
@@ -230,12 +227,6 @@ const (
 	// MetaNameNetworkRestrictions is the exact name of the singleton resource for
 	// network restrictions
 	MetaNameNetworkRestrictions = "network-restrictions"
-
-	// KindWindowsDesktopService is a Windows desktop service resource.
-	KindWindowsDesktopService = "windows_desktop_service"
-
-	// KindWindowsDesktop is a Windows desktop host.
-	KindWindowsDesktop = "windows_desktop"
 
 	// V4 is the fourth version of resources.
 	V4 = "v4"
@@ -340,7 +331,4 @@ const (
 
 	// DatabaseTunnel is a tunnel where a database proxy dials back to the proxy.
 	DatabaseTunnel TunnelType = "db"
-
-	// WindowsDesktopTunnel is a tunnel where the Windows desktop service dials back to the proxy.
-	WindowsDesktopTunnel TunnelType = "windows_desktop"
 )

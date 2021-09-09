@@ -51,8 +51,6 @@ func (s *KeepAlive) GetType() string {
 		return constants.KeepAliveApp
 	case KeepAlive_DATABASE:
 		return constants.KeepAliveDatabase
-	case KeepAlive_WINDOWS_DESKTOP:
-		return constants.KeepAliveWindowsDesktopService
 	default:
 		return constants.KeepAliveNode
 	}

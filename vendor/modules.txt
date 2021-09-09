@@ -284,19 +284,22 @@ github.com/gravitational/teleport/lib/utils/workpool
 github.com/gravitational/teleport/lib/web
 github.com/gravitational/teleport/lib/web/app
 github.com/gravitational/teleport/lib/web/ui
-# github.com/gravitational/teleport/api v0.0.0 => github.com/gravitational/teleport/api v0.0.0-20210527235356-bada2617ae03
+# github.com/gravitational/teleport/api v0.0.0 => github.com/gravitational/teleport/api v0.0.0-20210909185439-0bb38f881227
 ## explicit
+github.com/gravitational/teleport/api
 github.com/gravitational/teleport/api/client
 github.com/gravitational/teleport/api/client/proto
 github.com/gravitational/teleport/api/client/webclient
 github.com/gravitational/teleport/api/constants
 github.com/gravitational/teleport/api/defaults
 github.com/gravitational/teleport/api/identityfile
+github.com/gravitational/teleport/api/metadata
 github.com/gravitational/teleport/api/profile
 github.com/gravitational/teleport/api/types
 github.com/gravitational/teleport/api/types/events
 github.com/gravitational/teleport/api/types/wrappers
 github.com/gravitational/teleport/api/utils
+github.com/gravitational/teleport/api/utils/keypaths
 github.com/gravitational/teleport/api/utils/sshutils
 github.com/gravitational/teleport/api/utils/tlsutils
 # github.com/gravitational/trace v1.1.15
@@ -971,7 +974,7 @@ sigs.k8s.io/yaml
 # github.com/coreos/go-oidc => github.com/gravitational/go-oidc v0.0.3
 # github.com/gogo/protobuf => github.com/gravitational/protobuf v1.3.2-0.20201123192827-2b9fcfaffcbf
 # github.com/gravitational/teleport => github.com/gravitational/teleport v1.3.3-0.20210527235356-bada2617ae03
-# github.com/gravitational/teleport/api => github.com/gravitational/teleport/api v0.0.0-20210527235356-bada2617ae03
+# github.com/gravitational/teleport/api => github.com/gravitational/teleport/api v0.0.0-20210909185439-0bb38f881227
 # github.com/iovisor/gobpf => github.com/gravitational/gobpf v0.0.1
 # github.com/julienschmidt/httprouter => github.com/rw-access/httprouter v1.3.1-0.20210321233808-98e93175c124
 # google.golang.org/grpc => google.golang.org/grpc v1.29.1
